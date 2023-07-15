@@ -1,0 +1,19 @@
+{
+    "files.exclude": {
+        "**/*.class": true
+    },
+
+    //java配置
+    "java.home": "D:\\Program Files\\Java\\jdk-17.0.7",
+    "editor.suggestSelection": "first",
+
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "files.autoGuessEncoding":true,
+    "code-runner.runInTerminal": true,
+     //code run插件
+     "code-runner.executorMap": {
+        // "java": "cd $dir && javac -encoding utf-8 $fileName && java $fileNameWithoutExt",
+        "java": "cd $dir && javac -encoding GBK $fileName && java $fileNameWithoutExt",
+    },
+}
